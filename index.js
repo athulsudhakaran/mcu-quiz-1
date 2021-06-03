@@ -7,7 +7,7 @@
         console.log(chalk.cyanBright("BEST OF LUCK FOR THE QUIZ")) ;
         console.log(chalk.redBright("INSTRUCTION!!!!"));
         console.log("Answer via option variables");
-        console.log(chalk.green.bgYellow.underline.bold("QUESTIONS"));
+        console.log(chalk.green.bold("QUESTIONS"));
         var score=0;
         function quiz(question,answer){
           var userName=readlineSync.question(question);
